@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PrivacyPolicyApp</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+  <body>
+    <header id="header">
+      <h1 class="header-title">WithApp</h1>
+    </header>
+    <div id="main">
+      <%= yield %>
+    </div>
+    <footer id="footer">
+      <p class="all-rights-text">Copyrights &copy; 2022 WithApp All Rights Reserved. </p>
+    </footer>
+  </body>
+</html>

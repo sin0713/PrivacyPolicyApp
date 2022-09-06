@@ -1,0 +1,28 @@
+// Place all the styles related to the homes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.policy-title-wrapper {
+  text-align: center;
+  margin: 40px 0;
+}
+
+
+
+.policy-items-wrapper {
+  margin: 35px 0;
+}
+
+.policy-title {
+  font-size: 30px;
+}
+
+.policy-sub-heeading {
+  border-bottom: solid 3px rgb(20, 116, 108);
+}
+
+.policy-contents-text {
+  margin-top: 20px;
+  overflow-wrap: break-word;
+}
+
