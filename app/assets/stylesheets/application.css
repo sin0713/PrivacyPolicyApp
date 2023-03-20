@@ -51,7 +51,7 @@ img {
   width: 100%;
     height: 70px;
     background-color: rgb(20, 183, 170);
-    font-family: cursive;
+    font-family: sans-serif;
 }
 
 .header-title {
@@ -81,4 +81,14 @@ img {
   color: white;
   margin: 0 auto;
   line-height: 55px;
+}
+
+
+@media screen and (max-width: 480px) {
+	/* 480px以下に適用されるCSS（スマホ用） */
+
+  #main {
+    width: 100%;
+  }
+
 }
